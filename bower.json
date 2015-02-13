@@ -1,0 +1,17 @@
+{
+  "name": "PolymerProjects",
+  "version": "1",
+  "homepage": "https://github.com/ashvin777/ionic-polymer",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.5.4",
+    "app-router": "~2.4.0"
+  }
+}

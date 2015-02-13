@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="bower_components/webcomponentsjs/webcomponents.js"></script>
+    <link rel="stylesheet" href="lib/css/ionic.min.css" >    
+
+    <link rel="import" href="elements/ui-view.html">
+    <link rel="import" href="elements/ui-header.html">
+    <link rel="import" href="elements/ui-footer.html">
+    <link rel="import" href="elements/ui-content.html">
+
+    <link rel="import" href="bower_components/app-router/app-router.html">
+    
+  </head>
+  <body>
+    <app-router>
+      <app-route path="/login" import="pages/login-page.html"></app-route>
+      <app-route path="/home" import="pages/home-page.html"></app-route>
+    </app-router>
+  </body>
+</html>

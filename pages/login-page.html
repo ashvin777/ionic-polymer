@@ -1,0 +1,25 @@
+<link rel="import"
+      href="../bower_components/polymer/polymer.html">
+
+<polymer-element name="login-page">
+  <template>
+    <link type="text/css" rel="stylesheet" href="../lib/css/ionic.min.css">
+        <ui-view href="#login" active="true">
+          <ui-header theme="dark" title="title"></ui-header>
+          <ui-content>
+          {{label}}
+            <a href="#/home">Home</a>
+            <input type="text" value="{{label}}" />
+          </ui-content>
+          <ui-footer theme="dark" title="title"></ui-footer>
+        </ui-view>
+  </template>
+  <script>
+    Polymer({
+      label : "assd",
+        ready: function() {
+        //...
+        }
+    });
+  </script>
+</polymer-element>

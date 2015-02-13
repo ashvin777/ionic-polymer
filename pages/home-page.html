@@ -1,0 +1,27 @@
+<link rel="import"
+      href="../bower_components/polymer/polymer.html">
+
+<polymer-element name="home-page">
+  <template>
+    <link type="text/css" rel="stylesheet" href="../lib/css/ionic.min.css">
+        <ui-view href="#login" active="true">
+          <ui-header theme="dark" title="title"></ui-header>
+          <ui-content>
+             <div class="list card">
+                <a href="#/home" class="item item-icon-left">
+                  <i class="icon ion-home"></i>
+                  Home
+                </a>
+              </div>
+          </ui-content>
+          <ui-footer theme="dark" title="title"></ui-footer>
+        </ui-view>
+  </template>
+  <script>
+    Polymer({
+        ready: function() {
+        //...
+        }
+    });
+  </script>
+</polymer-element>
